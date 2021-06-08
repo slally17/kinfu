@@ -1,7 +1,29 @@
 Azure Kinect Kinfu Setup – Sam Lally
 
 
-Installation with Visual Studios 2017
+Installation from GitHub Build
+1.	Download the Github build from https://github.com/slally17/kinfu. 
+
+
+2.	Open kinfu_examples.sln.
+
+
+3.	Install the k4a package.
+	
+	a.	Right click References on the right and select Manage Nuget Packages
+	
+	b.	If you get a dropdown box about missing packages click that to install k4a.
+	
+	c.	If not, click Microsoft.Azure.Kinect.Sensor and click install.
+	
+	d.	NOTE: The program is tested on version 1.3.0, updating to the latest version has not been tested.
+
+
+4.	 Build the solution in Release x64 mode.
+
+
+
+Fresh Installation with Visual Studios 2017
 1.	Download and extract kinfu project from https://github.com/microsoft/Azure-Kinect-Samples/tree/master/opencv-kinfu-samples.
 
 
@@ -101,28 +123,6 @@ Installation with Visual Studios 2017
 	a.	Copy the dlls from VTKBUILD/bin/Release to opencv-kinfu-samples/x64/Release
 	
 	b.	Copy the dlls from OpenCVBUILD/bin/Release to opencv-kinfu-samples/x64/Release 
-
-
-
-Installation from GitHub Build
-1.	Download the Github build from https://github.com/slally17/kinfu. 
-
-
-2.	Open kinfu_examples.sln.
-
-
-3.	Install the k4a package.
-	
-	a.	Right click References on the right and select Manage Nuget Packages
-	
-	b.	If you get a dropdown box about missing packages click that to install k4a.
-	
-	c.	If not, click Microsoft.Azure.Kinect.Sensor and click install.
-	
-	d.	NOTE: The program is tested on version 1.3.0, updating to the latest version has not been tested.
-
-
-4.	 Build the solution in Release x64 mode.
 
 
 
